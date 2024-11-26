@@ -30,9 +30,9 @@ def resolver_modelo(K, C, G0, I0=15, S0=5, t_final=10):
 
 # Generamos combinaciones de parámetros, se consideró un rango de valores de 0 a 10
 # que creemos mas representativo
-K_values = np.linspace(0, 10, 11)
-C_values = np.linspace(0, 10, 11)
-G0_values = np.linspace(0, 10, 11)
+K_values = np.linspace(1, 5, 5)
+C_values = np.linspace(1, 5, 5)
+G0_values = np.linspace(1, 5, 5)
 
 # Creamos el DataFrame con los resultados
 data = []
